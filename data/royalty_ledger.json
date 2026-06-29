@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "authors": {
+    "default": {
+      "name": "Ljupco Arsovski",
+      "email": "you@example.com",
+      "stripe_account_id": null,
+      "total_earned": 0,
+      "total_paid": 0
+    }
+  },
+  "pending_royalties": [],
+  "payout_history": [],
+  "audit_log": []
+}
