@@ -1,0 +1,58 @@
+{
+  "schema": "LOUSTA_CHECKPOINT_V1",
+  "checkpoint": "2026-08-21_DOCTOR_BASELINE",
+  "repository_role": "PUBLIC_DOCTRINE_AND_SAFE_CHECKPOINT_ONLY",
+  "current_phase": "PHASE_0_DOCTOR",
+  "authority": {
+    "max_executing": 1,
+    "self_approval": false,
+    "owner_gate_external_side_effects": true,
+    "gate6_owner_gated": true,
+    "observed_is_not_authority": true,
+    "capability_specific_graduation": true
+  },
+  "holds": {
+    "new_architecture": true,
+    "competing_systems": true,
+    "bulk_book_generation": true,
+    "media_scaling": true,
+    "credential_rotation": true,
+    "database_consolidation": true,
+    "gate6_promotion": true,
+    "production_change": true,
+    "real_purchase": true
+  },
+  "next_evidence_event": {
+    "name": "PACKAGE_D_IDENTITY_CHECK",
+    "local_path": "/sdcard/Download/LOUCORP_IMMEDIATE_GROUND_TRUTH_V1.sh",
+    "expected_sha256": "d2d3eac8ee8ac5267098497f78f1811f084bd9f12359c10b7b60cd746f19a681",
+    "if_verified": "RUN_EXACT_ARTIFACT_AND_PRESERVE_COMPLETE_OUTPUT",
+    "if_absent": "RECONSTRUCT_SAME_CONTRACT_AND_LOG_SUBSTITUTION",
+    "if_drift": "STOP_AND_DIFF_BEFORE_EXECUTION"
+  },
+  "doctor_passes": [
+    "CONTROL_TRUTH",
+    "BUSINESS_TRUTH",
+    "INTELLIGENCE_TRUTH",
+    "INFRASTRUCTURE_AND_SECURITY_TRUTH",
+    "COMMERCIAL_AND_MEDIA_READINESS"
+  ],
+  "required_outputs": [
+    "DOCTORS_DIAGNOSIS",
+    "TREATMENT_PLAN",
+    "BOOKS_AND_MEDIA_GROWTH_PLAN"
+  ],
+  "commercial_proof_ladder": [
+    "CONTENT_PROVEN",
+    "PDF_PROVEN",
+    "LEDGER_READY",
+    "PROVIDER_CREATED",
+    "PROVIDER_URL_PROVEN",
+    "PURCHASE_PROVEN",
+    "PAYMENT_EVENT_PROVEN",
+    "WEBHOOK_PROVEN",
+    "D1_ROW_PROVEN",
+    "SETTLEMENT_PROVEN"
+  ],
+  "public_repo_security_rule": "DO_NOT_MIRROR_SECRET_VALUES_OR_SECURITY_SENSITIVE_EVIDENCE"
+}
